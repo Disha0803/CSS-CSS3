@@ -1,0 +1,33 @@
+ol li{
+    background-color: chartreuse;
+}
+
+
+ol li:first-child{
+    background-color: rgb(181, 8, 197);
+}
+
+
+ol li:last-child{
+    background-color: rgb(197, 24, 8);
+}
+
+
+ol li:nth-child(3){
+    background-color: rgb(10, 183, 236);
+}
+
+
+
+ul li{
+    background-color: blueviolet;
+}
+
+ul li:nth-child(odd){
+    background-color: rgba(230, 16, 16, 0.322);
+}
+
+ul li:nth-child(even){
+    background-color: rgba(45, 238, 11, 0.322);
+}
+

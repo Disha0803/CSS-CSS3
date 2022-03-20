@@ -1,0 +1,18 @@
+.box1{
+display: inline-block;
+border: 5px solid red;
+transition: all 6s ease-in-out;
+}
+
+.box2{
+float:right;
+}
+
+.box1:hover{
+transform: translate(950px);
+/* transform: rotate(-90deg); */
+/* transform: scaleY(2); */
+/* transform: scale(0.5,0.5); */
+/* transform: skewY(50deg); */
+/* transform: skew(50deg,20deg); */
+}

@@ -1,0 +1,59 @@
+*{
+        margin: 0px;
+        padding: 0px;
+}
+h2{
+        color: coral;
+}
+p{
+        color: white;
+}
+.flex-container{
+        display: flex;
+        /* flex-direction: column; */
+        /* flex-direction: column-reverse; */
+        /* flex-direction: row; */
+        /* flex-direction: row-reverse; */
+        height: 500px;
+        border:5px solid teal;
+        flex-wrap: wrap;
+        /* flex-wrap: wrap-reverse; */
+
+        /*shprtcut for flex-direction:  and flex-wrap;*/
+        /* flex-flow: coloum wrap; */
+
+        /* justify-content: center; */
+        /* justify-content: space-evenly; */
+        /* justify-content: space-between; */
+        /* justify-content: space-around; */
+      
+        /* align-items: stretch; */
+        /* align-items: center; */
+        /* align-items: flex-end; */
+        /* align-items: flex-start; */
+
+}
+
+
+.flex-container div{
+        background-color: teal;
+        width: 350px;
+        border: 2px solid white;
+        padding: 10px;
+}
+
+
+.flex-item1{
+        /* order: 3;
+        flex:1; */
+}
+
+.flex-item2{
+        /* order: 2;
+        flex: 2; */
+}
+
+.flex-item3{
+        /* order: 1;
+        flex:1; */
+}

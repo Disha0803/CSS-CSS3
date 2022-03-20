@@ -1,0 +1,52 @@
+.box1{
+    height: 200px;
+    width: 200px;
+    border: 5px solid rgb(160, 153, 153) ;
+    float: left;
+    margin: 100px;
+    
+}
+.child1{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+.child1:hover{
+    transform: perspective(600px) translateX(100px);
+    transition: all 2s ease-in-out;
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    border: 5px solid rgb(151, 144, 144) ;
+    float: left;
+    margin: 100px;
+    
+}
+.child2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(23, 240, 41);
+}
+.child2:hover{
+    transform: perspective(600px) translateY(100px);
+    transition: all 2s ease-in-out;
+}
+.box3{
+    height: 200px;
+    width: 200px;
+    border: 5px solid rgb(151, 144, 144) ;
+    float: left;
+    margin: 100px;
+    
+    
+}
+.child3{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(231, 16, 16);
+}
+.child3:hover{
+    transform: perspective(200px) scale(0.7);
+    transition: all 2s ease-in-out;
+}

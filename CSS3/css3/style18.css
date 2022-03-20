@@ -1,0 +1,43 @@
+#id1{
+    background-color: coral;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+#id2{
+    background-color: rgb(17, 228, 80);
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+#id3{
+    background-color: rgb(20, 135, 230);
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+#id4{
+    background-color: rgb(8, 25, 39);
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+#id5{
+    background-color: rgb(230, 20, 20);
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+#id6{
+    background-color: rgb(224, 15, 196);
+    width: 200px;
+    height: 200px;
+    float: right;
+
+}
+

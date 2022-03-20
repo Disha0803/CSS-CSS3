@@ -1,0 +1,9 @@
+/* laptop screen */
+@media (min-width:769px) and (max-width:1200px){
+    body{
+        background-color:green;
+    }
+    .laptop p{
+        display: block;
+    }
+}

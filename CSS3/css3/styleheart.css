@@ -1,0 +1,55 @@
+.main{
+    height: 540px;
+    width: 900px;
+    background-image: url(images/bg11.jpg);
+    background-repeat: no-repeat;
+    margin: auto;
+    background-size: cover;
+   
+}
+.box{
+    animation-name: heartmove;
+    animation-duration: 6s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+
+@keyframes heartmove{
+    0%{
+        left: 0px;
+        bottom: 0px;
+    }
+    10%{
+        left: 100px;
+        bottom: 100px;
+    }
+    30%{
+        left: 140px;
+        bottom: 140px;
+    }
+    40%{
+        left: 180px;
+        bottom:220px ;
+    }
+    50%{
+        left: 220px;
+        bottom: 240px;
+    }
+    70%{
+        left: 280px;
+        bottom: 220px;
+    }
+    80%{
+        left: 360px;
+        bottom: 140px;
+    }
+    90%{
+        left: 600px;
+        bottom: 0px;
+    }
+    100%{
+        left: 300px;
+        bottom: 0px;
+    }
+}

@@ -1,0 +1,14 @@
+/* h2{
+    text-shadow: 1px 1px  30px rgb(36, 12, 7) ;
+} */
+
+.box{
+    height: 200px;
+    width: 350px;
+    background-color: deeppink;
+    padding: 10px;
+    color: white;
+    box-shadow: 5px 5px 8px black;
+
+    /* design beautiful card  */
+}

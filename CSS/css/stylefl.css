@@ -1,0 +1,42 @@
+#id1{
+    height: 200px;
+    width: 200px;
+    background-color: coral;
+    float: left;
+}
+#id2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(8, 99, 35);
+    float: left;
+}
+#id3{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(216, 40, 122);
+    float: right;
+}
+#id4{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(45, 23, 167);
+    float: left;
+}
+#id5{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(221, 54, 12);
+    float: right;
+}
+#para1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid yellowgreen;
+    float: left;
+}
+#para2{
+    height: 200px;
+    width: 400px;
+    border: 2px solid yellow;
+    float: right;
+}

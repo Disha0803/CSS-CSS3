@@ -1,0 +1,84 @@
+
+.main1{
+    height: 300px;
+    width: 300px;
+    border: tomato;
+    background-image: radial-gradient(rgb(218, 125, 210),rgb(236, 18, 163),rgb(131, 30, 131));
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px black;
+    float: right;
+}
+.main1 p{
+    text-align: center;
+    color: white;
+   font-size: large;
+   padding-top: 80px;
+   
+}
+.main1:hover{
+    transition-property: all;
+    transition-duration: 3s;
+    border-radius: 10%;
+}
+.img:hover{
+    transform: translate(800px,-200px);
+    transition:all 5s ease-in-out;
+    transition-delay: 2s;
+}
+
+.m{
+    height: 300px;
+    width: 300px;
+    border: tomato;
+    background-image: conic-gradient(blue,green,yellow);
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px black;
+    margin-left: 500px;
+}
+
+.m h3{
+    text-align: center;
+    padding-top: 30px;
+    color: black;
+    text-shadow: 2px 2px 10px red;
+    font-size: x-large;
+   
+}
+.m{
+    transform: rotate(360deg);
+    transition: all 5s ease-in-out
+}
+
+
+.main2{
+    height: 300px;
+    width: 300px;
+    border: tomato;
+    background-image: radial-gradient(rgb(96, 233, 96),green,rgb(6, 53, 6));
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px black;
+    float: left;
+}
+.main2 p{
+    text-align: center;
+    color: white;
+   font-size: large;
+   padding-top: 80px;
+   float: left;
+   
+}
+.main2:hover{
+    transition-property: all;
+    transition-duration: 3s;
+    border-radius: 10%;
+}
+
+.img2{
+    float: right;
+}
+
+.img2:hover{
+    transform: translate(-720px,-200px);
+    transition:all 5s ease-in-out;
+    transition-delay: 1s;
+}

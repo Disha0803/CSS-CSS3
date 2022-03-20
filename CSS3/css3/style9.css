@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+.main{
+    background-color: white;
+    height: 570px;
+    width: 400px;
+    margin-left: 430px;
+    padding-top: 50px;
+}
+.box1{
+    height: 500px;
+    width: 350px;
+    border: 10px solid gray; 
+    background-color: rgb(245, 227, 125);
+    margin-left: 15px;
+}
+.door{
+    height: 500px;
+    width: 350px;
+    background-color: black;
+}
+.door:hover{
+    transform-origin: left;
+    transform: perspective(300px) rotateY(20deg);
+    
+}

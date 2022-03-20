@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("images/4.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+nav ul li{
+     float: left;
+     list-style: none;
+     background-color: teal;
+     height: 40px;
+     width: 180px;
+     text-align: center;
+     line-height: 40px;
+     color: white;
+     border-right: 1px solid white;
+     opacity: 0.8;
+}
+
+nav ul li ul{
+    display: none;
+}
+
+nav ul li:hover >ul{
+    display: block;
+}
+
+nav ul li ul li{
+    position: relative;
+}
+
+nav ul li ul li ul{
+    position: absolute;
+    left:180px;
+    top:5px;
+}

@@ -1,0 +1,105 @@
+.box{
+    background-color: cornsilk;
+    width: 500px;
+    height: 500px;
+    border: 3px solid red;
+    margin-left: 200px;
+}
+
+.box div{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+#div1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* position: static;
+    left:400px;
+    bottom: 25px; */
+
+    /* position: fixed;
+    bottom: 10px;
+    right: 10px; */
+}
+
+
+#div2{
+    background-color: rgb(20, 226, 82);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: 500px;
+    
+    
+
+}
+
+#div3{
+    background-color: rgb(231, 23, 214);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+   
+}
+
+#div4{
+    background-color: rgb(78, 63, 63);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+#navbar{
+    position: sticky;
+    top: 0px;
+
+}
+
+
+#navbar2{
+    position:sticky;
+    bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav{
+    background-image: linear-gradient(45deg,rgb(228, 31, 218),blue);
+    padding: 10px;
+    border-radius: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+
+}
+
+nav a:hover{
+    background-image: linear-gradient(45deg,yellow,black);
+    border-radius:8px;
+}

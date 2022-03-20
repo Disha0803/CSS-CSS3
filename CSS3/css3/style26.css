@@ -1,0 +1,59 @@
+/* p{ */
+    /* font-size: 25px; */
+    /* font-size: 0.5cm; */
+    /* font-size: 25mm; */
+    /* font-size: 1in; */
+    /* font-size: 72pt;   */
+    /* font-size: 5pc; */
+
+/* 
+} */
+
+/* 
+html{
+    font-size: 25px;
+} */
+
+
+/* .child-box{
+    font-size: 1.5em;
+} */
+
+/* 
+.child-box{
+    font-size: 2rem;
+}  */
+
+
+.box{
+    background-color: green;
+    border: 5px solid red;
+    /* height: 80vh; */
+    width: 50vw;
+    /* width: 50%; */
+
+
+}
+
+p{
+    font-size: 5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

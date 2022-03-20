@@ -1,0 +1,41 @@
+.box1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid salmon;
+    margin: 70px;
+    display: inline-block;
+}
+.child1{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(226, 49, 73);
+    transform: perspective(500px) rotateX(45deg);
+}
+
+.box2{
+    height: 200px;
+    width: 200px;
+    border: 2px solid salmon;
+    margin: 70px;
+    display: inline-block;
+}
+.child2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(226, 49, 73);
+    transform: perspective(500px) rotateY(45deg);
+}
+
+.box3{
+    height: 200px;
+    width: 200px;
+    border: 2px solid salmon;
+    margin: 70px;
+    
+}
+.child3{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(226, 49, 73);
+    transform: perspective(300px) rotateZ(45deg);
+}

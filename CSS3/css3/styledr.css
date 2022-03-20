@@ -1,0 +1,107 @@
+body{
+    
+    background-image: url(images/bgg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+#img1 {
+    float: left;
+margin-left:500px;
+margin-top: 100px;
+}
+#img2 {
+    float: right ;
+    margin-top: 130px;
+}
+
+.main img{
+    animation-name: tj;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    
+    position: relative;
+    animation-delay: .2s;
+    
+}
+.main2 img{
+    animation-name: tj2;
+    animation-duration: 3.8s;
+    animation-iteration-count: infinite;
+    
+    position: relative;
+   
+    
+    
+}
+
+@keyframes tj{
+    0%{
+        top: 0px;
+        left: 0px;
+        
+    }
+    20%{
+        bottom: 30px;
+        right: 50px;
+    }
+    50%{
+        bottom: 0px;
+        left: 100px;
+    }
+    60%{
+        bottom: 60px;
+        right: 130px;
+        transform:perspective(150px) rotateZ(20deg);
+    }
+    70%{
+        bottom: 20px;
+        right: 190px;
+    }
+    90%{
+        bottom: 10px;
+        right: 200px;
+        transform:scale(.5);
+    }
+    100%{
+        bottom: 0px;
+        right: 200px;
+        transform:scale(.2);
+    }
+    
+}
+@keyframes tj2{
+    0%{
+        top: 0px;
+        left: 0px;
+        transform:scale(.5);
+    }
+    20%{
+        bottom: 10px;
+        right: 50px;
+        
+    }
+    50%{
+        bottom: 0px;
+        left: 100px;
+    }
+    60%{
+        bottom: 40px;
+        right: 130px;
+        transform:perspective(150px) rotateZ(30deg);
+    }
+    70%{
+        bottom: 20px;
+        right: 190px;
+    }
+    90%{
+        bottom: 10px;
+        right: 200px;
+    }
+    100%{
+        bottom: 0px;
+        right: 500px;
+        transform:scale(.5);
+    }
+
+}

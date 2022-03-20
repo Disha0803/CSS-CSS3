@@ -1,0 +1,9 @@
+/* mobile screen */
+@media (max-width:500px){
+    body{
+        background-color:red;
+    }
+    .mobile p{
+        display: block;
+    }
+}

@@ -1,0 +1,21 @@
+#id1{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    float:left;
+}
+
+#id2{
+    background-color: rgb(29, 124, 233);
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+
+#id3{
+    background-color: rgb(15, 223, 32);
+    height: 300px;
+    width: 300px;
+    /* cancel the float effot  */
+    clear: left;
+}

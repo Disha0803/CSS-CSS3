@@ -1,0 +1,18 @@
+body{
+    background-image: url("images/hh.jpg");
+}
+#box{
+    
+    padding: 15px;
+    width: 50%;
+    border-radius: 25px;
+    text-align: center;
+    margin: 70px auto;
+    color: aliceblue;
+    /* background-color: lawngreen; */
+    /* background-color: rgba(255,0,0,0.4); */
+    /* background-color: tomato; */
+
+    /* background-color: hsl(120, 90%, 40%,0.5); */
+    background-color: #1f40d3;
+}

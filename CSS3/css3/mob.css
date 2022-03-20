@@ -1,0 +1,36 @@
+@media (max-width:500px) {
+    body{
+        background-color: black;
+    }
+    .b1{
+        height: 200px;
+        width:200px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .b2{
+        height: 200px;
+        width:200px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .b3{
+        height: 200px;
+        width:200px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .b4{
+        height: 200px;
+        width:200px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .mo{
+        height: 100px;
+        width: 300px;
+        background-color: chocolate;
+        margin: auto;
+        margin-top: 10px;
+    }
+}

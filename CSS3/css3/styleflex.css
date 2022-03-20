@@ -1,0 +1,19 @@
+
+.flexcontainer div{
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+    line-height: 100px;
+    text-align: center;
+    color: cornsilk;
+    font-size: 30px;
+    border: 1px solid wheat;
+    margin-top: 20px;
+}
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}

@@ -1,0 +1,17 @@
+.box{
+    height: 1000px;;
+    width: 1000px;
+background-image: url(images/road.jpg);
+padding-top: 300px;
+background-repeat: no-repeat;
+
+}
+
+.box :hover{
+    
+    
+    transform: translate(400px,100px);
+    transition: all 10s ease-in-out;
+    
+    
+}

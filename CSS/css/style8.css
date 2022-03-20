@@ -1,0 +1,18 @@
+ div{
+     display: inline-block;
+ }
+ .box{
+    height:500px;
+    width: 500px;
+    background: url(images/wom.jpg),red;
+    background-size: cover;
+    background-blend-mode:darken;
+}
+.box2{
+    height:500px;
+    width: 500px;
+    background: url(images/nature1.jpg),
+                url(images/nature2.jpg),linear-gradient(red,blue);
+    background-size: cover;
+    background-blend-mode:multiply;
+}

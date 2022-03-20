@@ -1,0 +1,9 @@
+.div1{
+    height:400px;
+    width:400px;
+    background-color: black;
+    border-left:25px solid red;
+    border-right:25px solid green;
+    border-top:25px solid yellow;
+    border-bottom:25px solid blue;
+}

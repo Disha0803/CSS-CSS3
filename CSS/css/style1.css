@@ -1,0 +1,20 @@
+ol li{
+    background-color: aquamarine;
+}
+
+ul li{
+    background-color: chartreuse;
+}
+
+ol li:nth-child(2){
+    background-color: rgb(255, 127, 127);
+}
+
+ul li:nth-child(odd){
+    background-color: rgb(233, 40, 169);
+}
+
+ul li:nth-child(even){
+    background-color: rgb(22, 17, 100);
+}
+

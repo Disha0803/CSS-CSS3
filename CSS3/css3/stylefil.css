@@ -1,0 +1,64 @@
+body{
+    background-color:darkolivegreen;
+}
+.box{
+    height: 300px;
+    width: 250px;
+    margin-left: 50px;
+    background-image: url(images/girl.jpg);
+    background-size: cover;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 0 0 50px black;
+    
+    
+    
+}
+.box:hover{
+    filter:grayscale(100%);
+    transform:scale(1.1)
+}
+.box2{
+    height: 300px;
+    width: 250px;
+    margin-left: 50px;
+    background-image: url(images/girl2.jpg);
+    background-size: cover;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 0 0 50px black;
+    
+    
+}
+.box2:hover{
+    filter:grayscale(50%);
+    transform:scale(1.1)
+}
+.box3{
+    height: 300px;
+    width: 250px;
+    margin-left: 50px;
+    background-image: url(images/girl4.jpg);
+    background-size: cover;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 0 0 50px black;      
+}
+.box3:hover{
+    filter:opacity(100%);
+    transform:scale(1.1)
+}
+.box4{
+    height: 300px;
+    width: 250px;
+    margin-left: 50px;
+    background-image: url(images/girl5.jpg);
+    background-size: cover;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 0 0 50px black;      
+}
+.box4:hover{
+    filter:saturate(100%);
+    transform:scale(1.1)
+}

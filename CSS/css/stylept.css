@@ -1,0 +1,21 @@
+#img1{
+    float: left;
+}
+#p1{
+    float: left;
+    width: 1000px;
+    
+}
+#p2{
+    float: left;
+    width: 100%;
+    height: 200px;
+}
+
+#p3{
+    float: left;
+    width: 1000px;
+}
+#img2{
+    float: right;
+}

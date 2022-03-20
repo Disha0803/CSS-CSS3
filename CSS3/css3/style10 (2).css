@@ -1,0 +1,12 @@
+.div1{
+    background-color: rgb(222, 16, 230);
+    height: 300px;
+    width: 300px;
+    /* border-style: solid;
+    border-color: aqua;
+    border-width: 25px; */
+
+    /* border: borderwidth borderstyle bordercolor; */
+    border:25px solid aqua;
+
+}

@@ -1,0 +1,9 @@
+/* tablet screen */
+@media (min-width:501px) and (max-width:768px){
+    body{
+        background-color:yellow;
+    }
+    .tablet p{
+        display: block;
+    }
+}

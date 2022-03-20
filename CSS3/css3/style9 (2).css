@@ -1,0 +1,22 @@
+.gradient{
+    height: 400px;
+    width: 400px;
+    /* background-image: linear-gradient(red,blue); */
+    /* background-image: linear-gradient(to right,red,blue,green,white,yellow); */
+    /* background-image: linear-gradient(to bottom right,red,blue); */
+    /* background-image: linear-gradient(180deg ,red,blue); */
+    /* background-image: linear-gradient(rgba(255,0,0,0.5),red); */
+
+    /* background-image: repeating-linear-gradient(rgb(240, 240, 220) 10%,rgb(219, 50, 50) 20%); */
+
+    /* background-image:repeating-radial-gradient(rgb(3, 3, 3) 10%,yellow 14%) */
+
+    /* background-image: conic-gradient(from 90deg,rgb(30, 10, 209),yellow,green); */
+
+
+    /* background-image: repeating-conic-gradient(red 0deg,red 10deg,rgb(87, 194, 37) 10deg,rgb(78, 214, 15) 20deg);
+    border-radius: 50%; */
+
+
+
+}

@@ -1,0 +1,19 @@
+body{
+    background-color: darkcyan;
+}
+.box{
+    height: 300px;
+    width: 250px;
+    background-image: url("images/1.jpg");
+    background-size: cover;
+    margin: 80px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 30px black;
+    filter: grayscale(100%);
+    transition: all 5s;
+}
+
+.box:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}

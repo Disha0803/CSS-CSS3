@@ -1,0 +1,14 @@
+#div1{
+    background-color: bisque;
+    visibility: visible;
+}
+
+#div2{
+    background-color: rgb(155, 92, 15);
+    visibility: hidden;
+}
+
+#div3{
+    background-color: rgb(23, 228, 149);
+    visibility: visible;
+}

@@ -1,0 +1,23 @@
+#img1{
+    float: left;
+    margin-right: 50px;
+}
+#p1{
+    width: 650px;
+    float: left;
+    height: 300px;
+}
+#img2{
+    float: right;
+}
+#p2{
+    width: 500px;
+    float: left;
+}
+#img3{
+    float: left;;
+}
+#p3{
+    width: 500px;
+    float: right;
+}

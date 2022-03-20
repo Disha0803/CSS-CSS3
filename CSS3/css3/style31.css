@@ -1,0 +1,28 @@
+.box{
+height: 650px;
+width: 1360px;
+background-color: red;
+animation-name: firstexample;
+animation-duration: 5s;
+}
+
+
+@keyframes firstexample {
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: green;
+    }
+    75%{
+        background-color:teal;
+    }
+    100%{
+        background-color: pink;
+    }
+    
+}
+

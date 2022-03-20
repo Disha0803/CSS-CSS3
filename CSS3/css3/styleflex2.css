@@ -1,0 +1,53 @@
+
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;   
+    flex-wrap:wrap;
+    align-items: flex-end;
+}
+
+.flexcontainer {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(42, 210, 216);
+    
+   
+}
+.flexcontainer div{
+    height: 50px;
+    width: 10%;
+    color: white;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+.flexcontainer div:hover{
+    background-color: blue;
+}
+
+
+@media (max-width:580px){
+    .flexcontainer {
+        height: 206px;
+        width: 100%;
+        background-color: rgb(42, 210, 216);
+        
+       
+    }
+    .flexcontainer{
+        display: flex;
+        flex-direction: column;
+         align-items: center; 
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+       
+    }
+    
+    .flexcontainer div{
+        width: 100%;
+        border-bottom: 1px solid white;
+        
+    }
+    
+}

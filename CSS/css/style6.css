@@ -1,0 +1,41 @@
+.box{
+    background-color: cornsilk;
+    height: 500px;
+    width: 500px;
+    border:3px solid red;
+    
+}
+.box div{
+    display: inline-block;
+    margin-left: 20px;
+}
+#div1{
+    background-color: crimson;
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+  
+}
+#div2{
+    background-color: rgb(21, 96, 196);
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    position: absolute;
+    left:500px;
+    
+}
+#div3{
+    background-color: rgb(255, 221, 70);
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    
+}
+#div4{
+    background-color: rgb(60, 220, 20);
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    
+}
